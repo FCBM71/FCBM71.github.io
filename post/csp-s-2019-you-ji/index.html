@@ -8,7 +8,7 @@
 <meta name="description" content="    ">
 <meta name="theme-color" content="#000">
 <title>CSP-S 2019 游记 | FCBM71&#39;s blog</title>
-<link rel="shortcut icon" href="/favicon.ico?v=1586412260639">
+<link rel="shortcut icon" href="/favicon.ico?v=1586414798739">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/pisces.css">
 
@@ -26,7 +26,7 @@
     onload="renderMathInElement(document.body);"></script>
 
     <meta name="description" content="CSP-S 2019 游记" />
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="灌水区" />
   </head>
   <body>
     <div class="head-top-line"></div>
@@ -223,6 +223,7 @@
 <li><a href="#day-0">Day 0</a></li>
 <li><a href="#day-1">Day 1</a></li>
 <li><a href="#day2">Day2</a></li>
+<li><a href="#%E7%BB%93%E6%9E%9C">结果</a></li>
 </ul>
 </li>
 </ul>
@@ -490,6 +491,19 @@ window.addEventListener('load', function() {
       <span class="post-meta-divider pc-show">|</span>
     </span>
     
+      <span class="meta-item">
+        <i class="fa fa-folder-o"></i>
+        <span class="pc-show">分类于</span>
+        
+          
+            <a href="https://FCBM71.github.io/tag/4Sdu-AWys/">
+              <span>灌水区</span>
+            </a>
+          
+        
+      </span>
+      <span class="post-meta-divider">|</span>
+    
     <span class="meta-item">
       <i class="fa fa-clock-o"></i>
       <span>4分钟</span>
@@ -497,7 +511,7 @@ window.addEventListener('load', function() {
     <span class="meta-item">
       <span class="post-meta-divider">|</span>
       <i class="fa fa-file-word-o"></i>
-      <span>849<span class="pc-show">字数</span></span>
+      <span>895<span class="pc-show">字数</span></span>
     </span>
     
   </div>
@@ -516,21 +530,21 @@ T1一个递归找规律应该能行<br>
 T2是个啥？树上维护栈加DP？<br>
 T3疑似一个贪心。<br>
 感觉不太符合CCF的往年题目风格呢。</p>
-<p>感觉前几年的T1一般可以在5~25min干掉，今年的T1差不多难度？花了几分钟草稿纸上推了一下T1在 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi><mo>=</mo><mn>3</mn><mo separator="true">,</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">N=3,4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">3</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">4</span></span></span></span> 时候的情况，感觉很简单的样子，貌似统计一下左右区间的次数就可以了。又花了不到十分钟码了一个dfs出来，debug了几分钟，小样例秒过，大样例直接崩盘，只有前几位对得上。这时过去了40分钟，不知道为什么就慌了。后来发现自己规律推错了，应该是判断这次是不是和上一次在同一个区间。重新推式子+码程序+debug，一个半小时过去了。打完发现疑似最后五分卡精度，手测了一下 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi><mo>=</mo><mn>64</mn></mrow><annotation encoding="application/x-tex">N=64</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">6</span><span class="mord">4</span></span></span></span>，果然全输 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>。找了很久bug，放弃。95分知足了。<br>
+<p>感觉前几年的T1一般可以在5~25min干掉，今年的T1差不多难度？花了几分钟草稿纸上推了一下T1在 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi><mo>=</mo><mn>3</mn><mo separator="true">,</mo><mn>4</mn></mrow><annotation encoding="application/x-tex">N=3,4</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">3</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord">4</span></span></span></span> 时候的情况，感觉很简单的样子，貌似统计一下左右区间的次数就可以了。又花了不到十分钟码了一个dfs出来，debug了几分钟，小样例秒过，大样例直接崩盘，只有前几位对得上。这时过去了40分钟，不知道为什么就慌了。后来发现自己规律推错了，应该是判断这次是不是和上一次在同一个区间。于是重新推式子+码程序+debug。打完发现最后五分疑似卡精度，手测了一下 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi><mo>=</mo><mn>64</mn></mrow><annotation encoding="application/x-tex">N=64</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">6</span><span class="mord">4</span></span></span></span>，果然全输 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>。找了很久bug，放弃，95分知足了。这时已经过去了1.5h。<br>
 事后证明是scanf占位符用的lld出的锅。<s>当时为啥不换cin呢</s></p>
 <p>之后尝试码T3的贪心 <s>我真的是傻</s> ，想了很久该怎么搞，阶乘枚举完了又不会 check，自闭。连 10 分送的分都拿不到，我是真的菜。</p>
 <p>写T2的时候想到了括号匹配，当时的思路是每个节点展开一次向子树的dfs，判断以当前节点到子树当前节点路径括号串是否合法。真棒，样例没过！花了很长时间debug，最后把代码敲到自己都看不懂，自闭。</p>
 <p>最后颓废了差不多一个小时，坐等审判。估分： 95 + ？ + 0</p>
 <h2 id="day2">Day2</h2>
-<blockquote>
-<p>快看啊FCBM71他暴力又写挂了</p>
-</blockquote>
+<p>“ 快看啊FCBM71他暴力又写挂了”</p>
 <p>Day1 自闭，Day2 估计更加惨烈。</p>
-<p>T1貌似是DP？啥玩意走了走了。T2貌似也是DP？啥玩意走了走了。T3貌似还是DP？啥玩意走了走了。</p>
-<p>先码T1，实在想不出来应该怎么搞，码了一个乘方级别的暴力，期望得分 12。后来加了一个剪枝，应该可以多拿一点吧。</p>
+<p>密码是“抓紧时间”，突然有点慌。开场还是先看题，第一眼感觉是三个DP，再看一眼还真是。</p>
+<p>先码T1，实在想不出来应该怎么搞，码了一个乘方级别的暴力，输出的时候-1，期望得分 12。后来加了一个剪枝，应该可以多拿一点吧。</p>
 <p>T2考虑过区间DP骗分。但是又写假了 <s>这都能写错，我菜</s>。实在没有办法，写了一个 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>2</mn><mi>n</mi></msup></mrow><annotation encoding="application/x-tex">2^n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.664392em;vertical-align:0em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span></span></span></span> 的究极枚举 + 小范围剪枝，期望得分12，溜了溜了。</p>
 <p>T3看似链更好写，虽然只有15分但还是先拿着保险吧。代码15分钟，debug半小时 <s>多测不清空，爆零两行泪</s>。因为一个前向星加边没有归0，调试了半小时。白送的40分 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>n</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">n^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> 都没有拿到，自闭了。看来别人密码里面提示的“抓紧时间”不是忽悠人的。</p>
-<p>最后结果 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>T</mi><mn>1</mn><mo>=</mo><mi>T</mi><mn>2</mn><mo>=</mo><mn>24</mn></mrow><annotation encoding="application/x-tex">T1=T2=24</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">4</span></span></span></span>？这数据是有多菜qwq</p>
+<h2 id="结果">结果</h2>
+<p>Day1跟估计的差不多，Day2最后结果 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>24</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>15</mn><mo>=</mo><mn>63</mn></mrow><annotation encoding="application/x-tex">24+24+15=63</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">5</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">6</span><span class="mord">3</span></span></span></span>？这数据我没话说了qwq</p>
+<p>最终还是省二滚粗了。我果然还是划水选手吧。NOIP2020加油</p>
 
               </div>
               <div class="post-footer">
@@ -549,6 +563,8 @@ T3疑似一个贪心。<br>
     </li>
   </ul>
   <div class="tags">
+    
+      <a href="https://FCBM71.github.io/tag/4Sdu-AWys/"># 灌水区</a>
     
   </div>
   <div class="nav">
