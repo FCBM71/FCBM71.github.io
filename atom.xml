@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://FCBM71.github.io</id>
     <title>FCBM71&apos;s blog</title>
-    <updated>2020-04-08T15:46:59.818Z</updated>
+    <updated>2020-04-09T00:04:05.483Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://FCBM71.github.io"/>
     <link rel="self" href="https://FCBM71.github.io/atom.xml"/>
@@ -17,8 +17,7 @@
         </link>
         <updated>2020-04-08T15:38:55.000Z</updated>
         <content type="html"><![CDATA[<p>内容较多，如果是想查找某一个特定的词语，可以在浏览器中使用 <code>Ctrl + F</code> 进行页面内搜索。</p>
-<p>本文长期更新，欢迎各位贡献新词！若没有找到您想要的结果欢迎在评论区提出。<br>
-<a href="https://www.luogu.com.cn/paste/mpvkjxpw">词典更新日志</a></p>
+<p>本文长期更新，欢迎各位贡献新词！若没有找到您想要的结果欢迎在评论区提出。</p>
 <p>与<a href="https://www.luogu.com.cn/blog/FCBM71/luo-gu-shen-tie-ji-ge-chi-xu-geng-xin-post">洛谷神贴集合</a>配套食用效果更佳！</p>
 <hr>
 <p>感谢一下用户为本词典贡献词条</p>
@@ -123,9 +122,7 @@
 <p><code>指挥使</code>，<code>野心家</code>，<code>zwc</code>：指洛谷管理 @<a href="https://www.luogu.com.cn/user/20218">zhouwc</a> （感谢 @chenpengda 的贡献）</p>
 <hr>
 <p><em>最近一次更新： 2020.3.30</em></p>
-<hr>
-<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathsize="1.2em"><mstyle mathcolor="red"><mtext>来了赞一个再走吧QwQ</mtext></mstyle></mstyle></mrow><annotation encoding="application/x-tex">\large\color{red}\text{来了赞一个再走吧QwQ}
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.053324em;vertical-align:-0.23332799999999998em;"></span><span class="mord text sizing reset-size6 size7" style="color:red;"><span class="mord cjk_fallback" style="color:red;">来了赞一个再走吧</span><span class="mord" style="color:red;">QwQ</span></span></span></span></span></span></p>
+<p><em>2020.4.8将此词典搬上了个人博客</em></p>
 ]]></content>
     </entry>
 </feed>
